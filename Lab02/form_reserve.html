@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Hotel Booking</title>
+</head>
+<body>
+ <h1>Hotel Booking</h1>
+ <form method="POST" action="https://angsila.cs.buu.ac.th/~wittawas/642/88726059/services/post.php">
+ <label for="roomtype">Room Type</label>
+ &emsp;&emsp;&emsp;<select name="roomtype">
+ <option value="Please Select">Please Select &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</option>
+ <option value="Standard">Standard</option>
+ <option value="Luxury">Luxury</option>
+ <option value="Deluxe">Deluxe</option>
+ </select>
+ <br><br>
+ <label for="numguest">Number of Guest</label>
+ &nbsp;&ensp;<select name="numguest">
+ <option value="Please Select">Please Select &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</option>
+ <option value="1-2">1-2</option>
+ <option value="3-4">3-4</option>
+ <option value="5-6">5-6</option>
+ <option value="7-8">7-8</option>
+ </select>
+ <br><br>
+ <label for="name">Name</label>
+ &emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&nbsp;<input type="text" name="fname" id="fname">
+ &emsp;<input type="text" name="lname" id="lname">
+ <br><br>
+ <label for="email">Email</label>
+ &emsp;&emsp;&emsp;&emsp;&ensp;&ensp;&nbsp;<input type="text" name="email" id="email"size = "49">
+ <br><br>
+ <label for="name">Arrival</label>
+ &emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;<input type="date" name="arrivaldate" id="arrivaldate">
+ &emsp;&emsp;&emsp;&emsp;<input type="time" name="arrivaltime" id="arrivaltime">
+ <br><br>
+ <label for="name">Departure</label>
+ &emsp;&emsp;&emsp;&ensp;&nbsp;<input type="date" name="departuredate" id="departuredate">
+ &emsp;&emsp;&emsp;&emsp;<input type="time" name="departuretime" id="departuretime">
+ <br><br>
+ <label for="Free Pickup">Free Pickup:</label>
+ &emsp;&emsp;
+ <input type="radio" name="pickup" id="pickup" value="Yes">Yes, Sure!
+ <br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;
+ <input type="radio" name="pickup" id="pickup" value="No">No, I already rented a car.
+ <br><br>
+ <label for="Fight Number">Fight Number</label>
+ &emsp;&ensp;&nbsp;
+ <input type="text" name="flightnum" id="flightnum" size=49>
+ <br><br>
+ Other requests
+ &emsp;&ensp;&nbsp;
+ <Textarea  name="otherreq" id="otherreq" rows="5" cols="50"></Textarea>
+ <br><br>
+ &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;&nbsp;
+ <input type="submit" value="Complete Reservation">
+ </form>
+</body>
+</html>
+
+
+
+
+
+ 
+ 
+ 
+ 
+ 
